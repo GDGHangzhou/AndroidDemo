@@ -1,7 +1,7 @@
 待更新：
 
-这个目录下放置GDGHangzhou成员，学习安卓开发的一些Demo。
+这里托管杭州GDG成员，开发的一些Android Demo。
 
 PS:
-为鼓励成员一起学习、开发，愿意将自己主要开发的Demo，共享到本目录下的，都能得到一件Google赞助的T恤。
-同时可申请Shadowsocks帐号一个月。
+为鼓励成员一起学习、开发，如愿意将有效Demo托管到这里的，都能得到一件Google赞助的T恤，
+还可选获得Shadowsocks服务帐号一个。对于完成度较高的Demo，杭州GDG将协助上传到Google Play并做推广。
