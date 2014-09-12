@@ -1,0 +1,77 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+   	
+    <TableRow
+        android:background="#DDDDDD" >
+
+        <LinearLayout>
+            <TextView
+                android:gravity="center_vertical"
+		        android:layout_width="100px"
+		        android:layout_marginLeft="20px"
+		        android:layout_height="100px"
+		        android:text="@string/phone_number_text"
+		        android:textSize="8pt" />
+            
+            <EditText 
+                android:id="@+id/phoneNumber"
+                android:gravity="center_vertical"
+                android:layout_width="350px"
+                android:layout_height="100px"
+                android:hint="@string/phone_number_editText_hint"
+                android:inputType="phone"/>
+            
+        </LinearLayout>
+    </TableRow>
+    
+    <TableRow>
+        <Button 
+            android:id="@+id/searchPhoneBtn"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/search_phoneBtn_text"/>
+    </TableRow>
+    
+    <TableRow>
+        <LinearLayout 
+        	android:id="@+id/belongPanel"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginTop="100px">
+            
+            <TextView 
+                android:gravity="center_vertical"
+                android:text="@string/phone_belong_text"
+                android:textSize="8pt"
+                android:layout_width="100px"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="20px"/>
+            
+            <TextView 
+                android:id="@+id/belongPhoneText"
+                android:gravity="center_vertical"
+                android:textSize="8pt"
+                android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="20px"
+		        android:textColor="#379be9"
+		        android:text="@string/loading_text"/>
+            
+            
+        </LinearLayout>
+    </TableRow>
+	
+    
+    <TableRow
+        android:layout_marginTop="450px">
+        <TextView 
+            android:text="BoBo版权V1.0"
+            android:gravity="center_horizontal"
+            />
+    </TableRow>
+    
+</TableLayout>

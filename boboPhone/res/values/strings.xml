@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">手机号码查询</string>
+    <string name="main_activity_title_name">BoBo手机归属地查询APP</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="phone_number_text">手机号</string>
+	<string name="phone_number_editText_hint">请输入查询的手机号</string>
+    
+	<string name="search_phoneBtn_text">查询所属地</string>
+	
+	<string name="phone_belong_text">所属地</string>
+
+	<string name="loading_text">加载中，请稍候...</string>
+		
+</resources>
