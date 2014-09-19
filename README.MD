@@ -1,5 +1,3 @@
-待更新：
-
 这里托管杭州GDG成员，开发的一些Android Demo。
 
 PS:  
